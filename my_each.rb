@@ -14,4 +14,9 @@ def my_each(array) # put argument(s) here
   end
 end
 
+my_each(array) do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+end
 my_each(array) element) { puts "#{element}"
