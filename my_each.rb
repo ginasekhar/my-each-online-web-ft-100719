@@ -14,5 +14,4 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each { 
-my_each(array) element) { puts "#{element}"
+my_each { |element|  puts "#{element}" }
