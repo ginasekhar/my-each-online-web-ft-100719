@@ -1,7 +1,7 @@
 def my_each(array) 
   # put argument(s) here
 
-if block_given?
+
   
     i = 0
    
@@ -10,9 +10,4 @@ if block_given?
       i = i + 1
     end
     array
-  else
-    puts "Hey! No block was given!"
   end
-end
-
-my_each (element) { puts "#{element}" }
